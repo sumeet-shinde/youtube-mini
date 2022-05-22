@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+*{
+  font-family: 'Noto Sans', sans-serif;
+}
+
+body{
+  background-color: rgb(24,24,24);
+}
+
+#searchDiv{
+  margin: -8px;
+  height: 60px;
+  background-color: rgb(32,32,32);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#search{
+  background-color: rgb(18,18,18);
+  font-size: 17px;
+  line-height: 24px;
+  border: 0;
+  color: rgba(255, 255, 255, 0.88);
+  height: 35px;
+  width: 450px;
+  padding: 0px 15px;
+}
+
+#searchBtn{
+  height: 35px;
+  width: 65px;
+  background-color: rgb(49,49,49);
+  font-size: 18px;
+  border: 0;
+  margin-left: 2px;
+  cursor: pointer;
+}
+
+#searchIcon{
+  color: rgba(255, 255, 255, 0.88);
+}
+
+#search:focus{
+  outline: 1px solid blue;
+}
+
+.most{
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+#resultsDiv {
+  margin: -8px;
+  display: grid;
+  grid-template-rows: repeat(20, 255px);
+  grid-template-columns: 1300px;
+  gap: 30px;
+  background-color: rgb(24,24,24);
+  padding-top: 30px;
+}
+
+.vdiv {
+  background-color: rgb(24,24,24);
+  margin-left: 30px;
+  display: flex;
+}
+
+iframe{
+  width: 450px;
+  height: 250px;
+}
+
+.thumb{
+  height: 250px;
+}
+
+.vtitle{
+  color: white;
+  padding-left: 40px;
+  margin-top: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.ctitle{
+  color: rgb(100,100,100);
+  padding-left: 40px;
+  margin-top: 20px;
+  font-size: 18px;
+}

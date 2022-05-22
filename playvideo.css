@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+*{
+  font-family: 'Noto Sans', sans-serif;
+}
+
+body{
+  background-color: rgb(24,24,24);
+}
+
+#searchDiv{
+  margin: -8px;
+  height: 60px;
+  background-color: rgb(32,32,32);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#search{
+  background-color: rgb(18,18,18);
+  font-size: 17px;
+  line-height: 24px;
+  border: 0;
+  color: rgba(255, 255, 255, 0.88);
+  height: 35px;
+  width: 450px;
+  padding: 0px 15px;
+}
+
+#searchBtn{
+  height: 35px;
+  width: 65px;
+  background-color: rgb(49,49,49);
+  font-size: 18px;
+  border: 0;
+  margin-left: 2px;
+  cursor: pointer;
+}
+
+#searchIcon{
+  color: rgba(255, 255, 255, 0.88);
+}
+
+#search:focus{
+  outline: 1px solid blue;
+}
+
+#videoDiv{
+  margin: -8px;
+  width: 100.85%;
+  height: 690px;
+  margin-top: 5px;
+}
+
+iframe{
+  width: 99.8%;
+  height: 80%;
+  border: 0;
+}
+
+.vtitle{
+  color: white;
+  padding-left: 40px;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 20px;
+}
